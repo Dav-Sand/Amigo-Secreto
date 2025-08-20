@@ -1,5 +1,5 @@
 :root {
-    --color-primary: #ad4bfd;
+    --color-primary: #804bfd;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
     --color-button: #fe652b;
@@ -72,11 +72,6 @@ body {
     text-align: center;
 }
 
-.imgRuleta 
-{
-    width: 200px;   
-    height: 250px;  
-}
 
 /* Contenedores de entrada y botón */
 .input-wrapper {

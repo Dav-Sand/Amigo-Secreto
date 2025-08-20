@@ -35,7 +35,7 @@ function mostrarNombres()
 		btnEliminar.className = 'button-delete';
 		btnEliminar.onclick = () => eliminarAmigo(index);
 		li.appendChild(btnEliminar);
-		lista.appendChild(li);
+		lista.appendChild(li);// Añade el elemento li a la lista(Sin el no se genera la lista visualmente)
 	});
 }
 
@@ -58,6 +58,12 @@ function SortearAmigo()
         }
     const indice = Math.floor(Math.random() * nombres.length);
     const nombreSorteado = nombres[indice];
-    resultado.innerHTML = `<li>El amigo secreto es: <strong>${nombreSorteado}</strong></li>`;
+    resultado.innerHTML = `<li>Tu amigo secreto es: 🎉<strong>${nombreSorteado}</strong>🎉</li>`;
+	const img = document.createElement("img");
+    img.src = "assets/RegalosAnimados.gif";
+    img.alt = "Regalo animado";
+    img.style.marginTop = "10px";
+    img.style.width = "200px";
+    resultado.appendChild(img);
 }
 
