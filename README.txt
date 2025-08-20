@@ -25,3 +25,6 @@ Este proyecto es un script web sencillo que permite introducir una lista de nomb
 ## 👤 Autor
 Elaborado por David Hernández
 Discord: 851524314477363261
+
+kkoo
+
